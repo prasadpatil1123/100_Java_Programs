@@ -1,0 +1,10 @@
+package pg6;
+
+public class swapNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

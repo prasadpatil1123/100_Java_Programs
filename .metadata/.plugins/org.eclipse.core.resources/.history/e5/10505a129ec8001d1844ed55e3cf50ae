@@ -1,0 +1,10 @@
+package pg8;
+
+public class addNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
