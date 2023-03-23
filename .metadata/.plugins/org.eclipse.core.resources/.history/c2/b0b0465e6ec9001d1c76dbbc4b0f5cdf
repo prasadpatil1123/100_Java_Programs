@@ -1,0 +1,10 @@
+package pg15;
+
+public class BigFact {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
