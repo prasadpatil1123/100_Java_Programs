@@ -1,0 +1,10 @@
+package pg24;
+
+public class enhanceLoopString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
