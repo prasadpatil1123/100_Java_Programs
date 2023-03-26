@@ -1,0 +1,10 @@
+package pg28;
+
+public class FloyedTri {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
