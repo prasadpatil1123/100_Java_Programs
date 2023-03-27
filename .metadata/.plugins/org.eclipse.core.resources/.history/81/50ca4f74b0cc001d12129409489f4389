@@ -1,0 +1,23 @@
+package pg33;
+
+import java.util.Scanner;
+
+public class matrixMultiplication {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int m, n;
+		System.out.println("Enter the num of rows & column of first matrix : ");
+		m = sc.nextInt();
+		n = sc.nextInt();
+		int c, d;
+		int first[][] = new int[m][n];
+		System.out.println("Enter the element of first matrix : ");
+		for (c = 0; c < m; c++) {
+			for (d = 0; d < n; d++) {
+				first[c][d] = sc.nextInt();
+			}
+		}
+	}
+
+}
