@@ -1,0 +1,10 @@
+package pg36;
+
+public class StringEndsWith {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

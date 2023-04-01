@@ -1,0 +1,10 @@
+package pg37;
+
+public class exampleIndexof {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

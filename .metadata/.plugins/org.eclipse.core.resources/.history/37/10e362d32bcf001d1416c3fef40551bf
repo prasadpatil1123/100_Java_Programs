@@ -1,0 +1,15 @@
+package pg37;
+
+public class exampleIndexof {
+
+	public static void main(String[] args) {
+
+		String s1 = "Java is prog lang";
+		int index1 = s1.indexOf("is");
+		int index2 = s1.indexOf("prog");
+		System.out.println(index1 + " "+ index2);
+		
+
+	}
+
+}

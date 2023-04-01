@@ -1,0 +1,10 @@
+package pg40;
+
+public class StringTrim {
+	
+	public static void main(String[] args) {
+	String s1 = "HEllo String";
+	System.out.println(s1 + " Kashi " );
+	System.out.println(s1.trim() + " Kashi " );
+	}
+}

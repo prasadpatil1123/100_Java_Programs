@@ -1,0 +1,12 @@
+package pg38;
+
+public class replaceString {
+
+	public static void main(String[] args) {
+	
+		String S1 = "My name is Kashi, My name is Prasad, My surname is Patil.";
+		String S = S1.replaceAll("is", "was");
+		System.out.println(S);
+	}
+
+}

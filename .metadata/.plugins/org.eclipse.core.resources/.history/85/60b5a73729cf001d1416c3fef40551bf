@@ -1,0 +1,17 @@
+package pg35;
+
+public class compareTwoString {
+
+	public static void main(String[] args) {
+
+		String s1 = "Hello";
+		String s2 = "Hello";
+		String s3 = "mekio";
+		String s4 = "hemlo";
+		System.out.println(s1.compareTo(s2));
+		System.out.println(s1.compareTo(s3));
+		System.out.println(s1.compareTo(s4));
+
+	}
+
+}

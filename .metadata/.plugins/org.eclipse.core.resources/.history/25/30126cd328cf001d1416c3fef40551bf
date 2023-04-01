@@ -1,0 +1,10 @@
+package pg35;
+
+public class compareTwoString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
