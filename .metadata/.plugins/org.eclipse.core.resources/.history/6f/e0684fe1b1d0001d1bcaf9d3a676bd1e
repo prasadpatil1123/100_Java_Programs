@@ -1,0 +1,20 @@
+package pg50;
+
+public class testThrow1 {
+
+	static void validate(int age) {
+		if (age < 18) {
+			throw new ArithmeticException(" Age is Not Valid . ");
+		} else {
+			System.out.println("Welcome to Programming.");
+		}
+	}
+
+	public static void main(String[] args) {
+
+		validate(25);
+		System.out.println("Rest of The code.");
+
+	}
+
+}

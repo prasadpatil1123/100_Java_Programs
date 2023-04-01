@@ -1,0 +1,20 @@
+package pg45;
+
+public class difference {
+
+	public static void main(String[] args) {
+		display();
+
+		difference df = new difference();
+		df.show();
+	}
+
+	static void display() {
+		System.out.println("Programming is Fun......");
+	}
+
+	void show() {
+		System.out.println("Java Programming......");
+	}
+
+}

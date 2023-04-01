@@ -1,0 +1,12 @@
+package pg46;
+
+public class Computer {
+
+	Computer(){
+		System.out.println("Constructor of computer Class");
+	}
+	void computer_method() {
+		System.out.println(" Shut down ! ........");
+	}
+
+}

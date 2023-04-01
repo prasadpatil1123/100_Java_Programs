@@ -1,0 +1,26 @@
+package pg43;
+
+public class stringMethods {
+
+	public static void main(String[] args) {
+
+		int n = 0;
+		String S = "Java Programming", T = "", U = "";
+
+		System.out.println(S); // Java Programming
+		n = S.length();
+		System.out.println("Length of String is " + n); // Length of String is 16
+
+		T = S.replace("Java", "C#");
+		System.out.println(S); // Java Programming
+
+		System.out.println(T); // C# Programming
+
+		U = S.concat(" for Fun ");
+		U = T.concat(" for Fun ");
+		System.out.println(S); // Java Programming
+		System.out.println(U);// Java Programming for Fun
+		System.out.println();
+	}
+
+}

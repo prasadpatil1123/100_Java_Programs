@@ -1,0 +1,16 @@
+package pg46;
+
+public class pc {
+
+	public static void main(String[] args) {
+
+		Computer cp = new Computer();
+
+		Laptop lp = new Laptop();
+
+		cp.computer_method();
+		lp.laptop_method();
+
+	}
+
+}
