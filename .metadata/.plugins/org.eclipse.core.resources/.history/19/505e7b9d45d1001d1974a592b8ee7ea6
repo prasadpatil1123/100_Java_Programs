@@ -1,0 +1,17 @@
+package pg55;
+
+import java.sql.Date;
+import java.text.*;
+
+public class SimpleDateFormatExample2 {
+
+	public static void main(String[] args) {
+		
+		Date date = new Date(0);
+		System.out.println("Date format changed by Kashi");
+		SimpleDateFormat formater = new SimpleDateFormat("MM/DD/YY");
+		String strDate  = formater.format(date);
+		System.out.println("Date format with MM/DD/YY : "+ strDate);
+	}
+
+}

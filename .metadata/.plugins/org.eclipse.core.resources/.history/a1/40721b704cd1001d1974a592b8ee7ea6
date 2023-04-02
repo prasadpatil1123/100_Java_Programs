@@ -1,0 +1,17 @@
+package pg60;
+
+import java.util.Scanner;
+
+public class LinearSearch {
+
+	public static void main(String[] args) {
+		
+		int c,n , search, array[];
+		Scanner sc = new Scanner(System.in);
+		
+		n= sc.nextInt();
+		array = new int[n];
+
+	}
+
+}
