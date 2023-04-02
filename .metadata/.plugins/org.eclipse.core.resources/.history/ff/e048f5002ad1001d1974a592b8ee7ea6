@@ -1,0 +1,5 @@
+package pg52;
+
+public interface Info {
+
+}

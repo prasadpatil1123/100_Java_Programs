@@ -1,0 +1,24 @@
+package pg53;
+
+public class GetCurrentDateAndTime {
+
+	public static void main(String[] args) {
+
+		int day, month, year;
+		int hour, minute, second;
+		Gregorian data = new Gregorian();
+
+		day = data.get(Calender.DAY_OF_MONTH);
+		month = data.get(Calender.MONTH);
+		year = data.get(Calender.YEAR);
+
+		second = data.get(Calender.DAY_OF_MONTH);
+		minute = data.get(Calender.DAY_OF_MONTH);
+		hour = data.get(Calender.DAY_OF_MONTH);
+
+		System.out.println("Current date is " + day + " / " + month + " / " + year);
+		System.out.println("Current time is " + hour + " : " + minute + " : " + second);
+
+	}
+
+}
