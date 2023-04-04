@@ -1,0 +1,14 @@
+package pg63;
+
+public class OracleCon {
+
+	public static void main(String[] args) {
+	try {
+		Class.forName("orac;e.jdbc.driver.OracleDriver");
+		
+	}catch(Exception e) {
+		System.out.println(e);
+	}
+	}
+
+}

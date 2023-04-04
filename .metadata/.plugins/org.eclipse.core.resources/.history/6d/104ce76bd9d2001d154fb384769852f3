@@ -1,0 +1,10 @@
+package pg66;
+
+public class Proc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

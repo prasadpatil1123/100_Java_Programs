@@ -1,0 +1,10 @@
+package pg67;
+
+public class RegexExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

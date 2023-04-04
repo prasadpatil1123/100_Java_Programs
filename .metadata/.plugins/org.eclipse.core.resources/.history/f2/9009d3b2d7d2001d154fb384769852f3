@@ -1,0 +1,10 @@
+package pg65;
+
+public class insertImage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
