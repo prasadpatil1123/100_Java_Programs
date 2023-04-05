@@ -1,0 +1,12 @@
+package pg74;
+
+import java.awt.peer.FramePeer;
+
+public class First implements FramePeer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
