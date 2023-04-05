@@ -1,0 +1,29 @@
+package pg72;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class URLDemo {
+
+	public static void main(String[] args) {
+
+		try {
+			URL U = new URL("http://www.technolamror.com/java");
+			System.out.println("Protocol: " + U.getProtocol());
+			System.out.println("Host name: " + U.getHost());
+			System.out.println("Port number: " + U.getPort());
+			System.out.println("File name: " + U.getFile());
+		} catch (MalformedURLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}
+/*
+ * output : Protocol: http
+ *  Host name: www.technolamror.com
+ *  Port number: -1 File
+ * name: /java
+ */
