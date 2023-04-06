@@ -1,0 +1,22 @@
+package pg85;
+
+public class StringToDateExample {
+
+	public static void main(String[] args) {
+		String Date1 = "31/12/2023";
+		String Date2 = "31-Dec-2023";
+		String Date3 = "12 31, 2023";
+		String Date4 = "Thu, Dec 31 2023";
+		String Date5 = "Thu, Dec 31 2023 23:35:50";
+		String Date6 = "31-Dec-2023 23:35:50";
+
+		SimpleDateFormat f1 = new SimpleDateFormat("dd/MM/yyyy");
+		SimpleDateFormat f2 = new SimpleDateFormat("dd-MMM-yyyy");
+		SimpleDateFormat f3 = new SimpleDateFormat("MM dd, yyyy");
+		SimpleDateFormat f4 = new SimpleDateFormat("E, MM dd yyyy");
+		SimpleDateFormat f5 = new SimpleDateFormat("E, MM dd yyyy HH:mm:ss");
+		SimpleDateFormat f6 = new SimpleDateFormat("dd-MMM-yyyy HH:mm:ss");
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package pg86;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayList_Kashi {
+
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+		list.add("Kashi");
+		list.add("Abhi");
+		list.add("RXR");
+		list.add("Ashish");
+		Iterator itr = list.iterator();
+
+		while (itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+
+}
