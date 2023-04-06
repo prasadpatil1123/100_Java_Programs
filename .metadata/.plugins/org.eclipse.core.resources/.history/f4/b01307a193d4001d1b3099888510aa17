@@ -1,0 +1,20 @@
+package pg96;
+
+import java.util.Hashtable;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class HashTable_Kashi {
+
+	public static void main(String[] args) {
+		Hashtable<Integer, String> ht = new Hashtable<Integer, String>();
+		ht.put(100, "Kashi");
+		ht.put(101, "Prasad");
+		ht.put(102, "Patil");
+		for (Map.Entry m : ht.entrySet()) {
+			System.out.println(m.getKey() + " " + m.getValue());
+		}
+
+	}
+
+}

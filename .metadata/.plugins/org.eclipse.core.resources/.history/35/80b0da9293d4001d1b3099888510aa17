@@ -1,0 +1,10 @@
+package pg96;
+
+public class HashTable_Kashi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

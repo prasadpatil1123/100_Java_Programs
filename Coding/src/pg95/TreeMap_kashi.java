@@ -1,0 +1,25 @@
+package pg95;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class TreeMap_kashi {
+
+	public static void main(String[] args) {
+		TreeMap<Integer, String> map = new TreeMap<Integer, String>();
+		map.put(100, "Kashi");
+		map.put(101, "Prasad");
+		map.put(102, "Patil");
+		for (Map.Entry m : map.entrySet()) {
+			System.out.println(m.getKey() + " " + m.getValue());
+		}
+
+	}
+
+}
+//
+//output
+//100 Kashi
+//101 Prasad
+//102 Patil

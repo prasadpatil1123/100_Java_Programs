@@ -1,0 +1,8 @@
+package pg100;
+
+public class Bamk {
+
+	int getRateOfInterest() {
+		return 0;
+	}
+}
