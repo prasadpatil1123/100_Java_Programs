@@ -1,0 +1,10 @@
+package pg79;
+
+public class CheackBoxExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -16,6 +16,11 @@
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.net.URL"/>
     <fullyQualifiedTypeName name="java.net.InetAddress"/>
-    <fullyQualifiedTypeName name="java.awt.Frame"/>
     <fullyQualifiedTypeName name="java.awt.Label"/>
+    <fullyQualifiedTypeName name="java.awt.TextArea"/>
+    <fullyQualifiedTypeName name="java.awt.Choice"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="java.awt.Checkbox"/>
+    <fullyQualifiedTypeName name="java.awt.Frame"/>
 </qualifiedTypeNameHistroy>

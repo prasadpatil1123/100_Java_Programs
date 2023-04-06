@@ -1,0 +1,25 @@
+package pg77;
+
+import java.awt.Choice;
+import java.awt.Frame;
+
+public class ChoiceExample {
+	
+	ChoiceExample(){
+		Frame f = new Frame();
+		Choice c = new Choice();
+		c.setBounds(100,100,75,75);
+		c.add(""
+		c.add(null);
+		c.add(null);
+		c.add(null);
+		c.add(null);
+		
+		}
+
+	public static void main(String[] args) {
+		
+		new 	ChoiceExample();
+	}
+
+}

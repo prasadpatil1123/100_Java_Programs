@@ -1,0 +1,10 @@
+package pg76;
+
+public class TextAreaExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
